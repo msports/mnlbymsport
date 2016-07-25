@@ -116,10 +116,10 @@ app.get('/standing', function(req, res, next) {
 
 });
 var port = process.env.PORT || 3000;
-// app.listen('port')
+// app.listen('3000')
 // console.log('Magic happens on port 8081');
 // exports = module.exports = app;
-app.listen('port')
+app.listen(3000)
   console.log('The party is on at port ' + port);
   exports = module.exports = app;
 // http://int.soccerway.com/a/block_home_matches?block_id=block_home_matches_26&callback_params=%7B%22bookmaker_urls%22%3A%7B%2213%22%3A%5B%7B%22link%22%3A%22http%3A%2F%2Fwww.bet365.com%2Fhome%2F%3Faffiliate%3D365_179024%22%2C%22name%22%3A%22Bet%20365%22%7D%5D%7D%2C%22block_service_id%22%3A%22home_index_block_homematches%22%2C%22date%22%3A%222016-07-23%22%2C%22display%22%3A%22now_playing%22%7D&action=updateContent&params=%7B%7D
