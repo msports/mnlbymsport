@@ -1,5 +1,5 @@
  //Test for rest api.js
-var express = require('../node_modules/express');
+var express = require('./node_modules/express');
 var app = express();
 app.use(express.bodyParser());
 
