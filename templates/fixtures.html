@@ -1,0 +1,15 @@
+<ion-view title="Fixtures" id="page10">
+    <ion-content padding="true" class="has-header">
+        <ion-list id="fixtures-list10" class="manual-list-fullwidth">
+            <div>
+                <ion-item class="item-icon-left item-icon-right" ng-repeat="f in fixture">
+                    <i class="icon">
+                        <img ng-src="{{f.homeLogo}}</i>{{f.homeT}}">
+                        <span class="item-note">{{f.awayT}}</span>
+                        <i class="icon ion-android-add-circle"></i>
+                    </i>
+                </ion-item>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

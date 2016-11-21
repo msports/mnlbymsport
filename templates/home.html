@@ -1,0 +1,9 @@
+<ion-view title="Home" id="page4">
+    <ion-content padding="false" class=" manual-remove-top-padding has-header">
+        <ion-list id="home-list2">
+            <ion-item id="home-list-item4" ng-repeat="l in livescore">{{l.homeTeam}} {{l.goalResult}}
+                <span class="item-note">{{l.awayTeam}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

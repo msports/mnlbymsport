@@ -1,0 +1,23 @@
+<ion-view title="Stand" id="page5">
+    <ion-content padding="false" class="has-header">
+        <div>
+            <div class="ion-item" style="padding-top:0px;">
+                <div padding="false" style="background-color:#009688;" class="item item-thumbnail-left" href="#">
+                    <img src="img/euro2016.png">
+                    <h2 style="color:white;">M SPORT</h2>
+                    <p style="color:#ddd">Do U Want Betting</p>
+                    <p style="color:#fefefe">Proudly Make by M SPORT</p>
+                </div>
+            </div>
+        </div>
+        <ion-list id="stand-list4" class="manual-list-fullwidth">
+            <ion-item id="stand-list-item6" ng-repeat="st in stand">
+                <div class="row">
+                    <div class="col col-10>{{st .position}}</div><div class=" col="" col-30="">{{st .team}}</div>
+                </div>
+            </ion-item>
+            <ion-item id="stand-list-item7">Item 2</ion-item>
+            <ion-item id="stand-list-item8">Item 3</ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
