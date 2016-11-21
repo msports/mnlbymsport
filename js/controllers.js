@@ -5,9 +5,9 @@ angular.module('app.controllers', [])
   $scope.$on('$ionicView.enter', function(){
       $ionicLoading.show();
 
-    $http.get('https://goldenlivescore.herokuapp.com/livescore').
+    $http.get('https://burmasport.herokuapp.com/livescore').
   then(function(response) {
-      $scope.livescore = response.data.livescore;
+      $scope.livescore = response.data;
       $ionicLoading.hide();
   }, function(response) {
 
@@ -74,7 +74,7 @@ function ($scope, $stateParams) {
   $scope.$on('$ionicView.enter', function(){
       $ionicLoading.show();
 
-    $http.get('https://msportapi.herokuapp.com/fixtures').
+   $http.get('https://burmasport.herokuapp.com/livescore').
   then(function(response) {
       $scope.fixture = response.data;
       $ionicLoading.hide();
